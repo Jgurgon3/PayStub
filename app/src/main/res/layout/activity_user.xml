@@ -1,0 +1,72 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.tl.jg.beerhere.beerhere2.UserActivity"
+    android:id="@+id/UserPage"
+    android:background="@drawable/background2"
+    >
+
+
+    <ImageButton
+        android:layout_width="94dp"
+        app:srcCompat="@drawable/selectstadiumbutton1"
+        android:id="@+id/select_stadium_button_home"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"/>
+
+    <ImageButton
+        android:layout_width="94dp"
+        app:srcCompat="@drawable/pay_methods_button2"
+        android:id="@+id/pay_methods_button_home"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:elevation="0dp"
+        android:layout_below="@+id/select_stadium_button_home"
+        android:layout_alignStart="@+id/select_stadium_button_home"
+        android:layout_marginBottom="5dp"/>
+
+
+    <ImageButton
+        android:layout_width="94dp"
+        app:srcCompat="@drawable/settings_button__home"
+        android:id="@+id/settings_button_home"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/pay_methods_button_home"
+        android:layout_marginBottom="5dp"/>
+
+
+    <ImageButton
+        android:layout_width="94dp"
+        app:srcCompat="@drawable/help_button_home"
+        android:id="@+id/help_button_home"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/settings_button_home"
+        android:layout_alignStart="@+id/settings_button_home" />
+
+
+
+
+</TableLayout>

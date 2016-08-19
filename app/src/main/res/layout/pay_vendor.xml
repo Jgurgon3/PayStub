@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    >
+    <AutoCompleteTextView
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoCompleteTextView3"
+        android:layout_gravity="center_horizontal"
+        android:hint="Vendor Number"
+        android:gravity="center"
+        android:inputType="textPhonetic"/>
+
+    <EditText
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:inputType="number|numberDecimal"
+        android:ems="10"
+        android:gravity="center"
+        android:id="@+id/payTotal2"
+        android:layout_gravity="center_horizontal"
+        android:hint="Total" />
+
+    <ImageButton
+        android:layout_width="94dp"
+        app:srcCompat="@drawable/pay_vendor_button_home"
+        android:id="@+id/pay_vendor_button"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="177dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
